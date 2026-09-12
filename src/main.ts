@@ -7,7 +7,7 @@ async function bootstrap() {
     instrument: ObserveInstrument,
   });
 
-  app.setGlobalPrefix('api')
+  app.setGlobalPrefix('api/v1')
 
   swaggerConfiguration(app);
 
